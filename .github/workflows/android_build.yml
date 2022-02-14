@@ -16,7 +16,7 @@ jobs:
           java-version: 11
 
       - name: Run Unit Tests
-        run: ./gradlew test --debug
+        run: ./gradlew test
 
 
       - name: Build Project
