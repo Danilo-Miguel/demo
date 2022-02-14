@@ -16,7 +16,7 @@ jobs:
           java-version: 11
 
       - name: Run Tests
-        run: ./gradlew test --stacktrace
+        run: ./gradlew test --debug
 
       - name: Build Project
         run: ./gradlew assemble
